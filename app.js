@@ -5,7 +5,7 @@ const port = 3000
 const app = express()
 
 app.get('/', (req, res) => {
-    res.send('index.html');
+    res.sendFile('views/index.html', {root: __dirname });
     });
 
 app.listen(port, function(error){
