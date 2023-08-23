@@ -1,0 +1,32 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    padding: 10px;
+    background-color:rgb(102,205,170);
+}
+header{
+    border: 2px solid;
+    font-weight: 600;
+    padding: 0px;
+    text-align: center;
+    background-color:rgb(171, 247, 221);
+    opacity: 1.5;
+    height: 150px;
+}
+h1{
+    background-color:rgb(171, 247, 221);
+    opacity: 1.5;
+}
+img.profile{
+    background-color:rgb(171, 247, 221);
+    opacity: 1.5;
+}
+a.link{
+    background-color:rgb(171, 247, 221);
+    opacity: 1.5;
+    display: -moz-inline-stack;
+}
+div.academic_projects{
+    text-align: center;
+    background-color: whitesmoke;
+}
