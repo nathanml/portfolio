@@ -2,7 +2,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: normal;
     padding: 10px;
-    background-color:rgb(102,205,170);
+    /* background-color:rgb(102,205,170);*/
 }
 header{
     border: 2px solid;
@@ -18,15 +18,38 @@ h1{
     opacity: 1.5;
 }
 img.profile{
-    background-color:rgb(171, 247, 221);
+    padding-top: 20px;
+    background-color:whitesmoke;
     opacity: 1.5;
+    height: 300px;
+    width: 300px;
 }
-a.link{
+ul.navigation{
+    width:570px;
+    height:15px;
+    margin:10px auto 10px auto;
     background-color:rgb(171, 247, 221);
     opacity: 1.5;
-    display: -moz-inline-stack;
+    text-align: center;
+    display:inline;
+}
+li.link{
+    display:inline;
+    margin: center
 }
 div.academic_projects{
     text-align: center;
     background-color: whitesmoke;
+}
+p.bio{
+    text-align: center;
+    height: 220px;
+    width: 400px;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: large;
+    border: 10px ridge rgb(171, 247, 221);
+    padding: 15px;
+    margin: 50px auto;
+    box-shadow: 5px 5px;
 }
