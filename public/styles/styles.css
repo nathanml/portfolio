@@ -142,3 +142,23 @@ img.cicdpic{
     left: 120px;
     top:100px;
 }
+#professional_projects{
+    text-align: center;
+    background-color:rgb(171, 247, 221); 
+    width: 1200px;
+    height:1200px;
+    opacity: 1.5;
+    margin:10px auto 10px auto;
+    display: inline;
+
+}
+h2#professional_projects{
+    text-align: center;
+    font-weight: 600;
+}
+/* img#citizens-logo-rebrand{
+
+} */
+dl.projects{
+    background-color:rgb(171, 247, 221); 
+}
