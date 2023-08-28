@@ -21,8 +21,8 @@ img.profile{
     padding-top: 20px;
     background-color:whitesmoke;
     opacity: 1.5;
-    height: 200px;
-    width: 200px;
+    height: 170px;
+    width: 170px;
     display: inline;
     
 }
@@ -42,6 +42,11 @@ li.link{
 div.academic_projects{
     text-align: center;
     background-color: whitesmoke;
+    width: 1200px;
+    height:1200px;
+    opacity: 1.5;
+    display: inline;
+    margin-top: 15px;
 }
 div.section{
     display:flow-root;
@@ -64,8 +69,8 @@ p.bio{
 }
 div.programming{
     text-align: center;
-    height: 240px;
-    width: 180px;
+    height: 230px;
+    width: 180px; 
     text-transform: capitalize;
     font-weight: normal;
     font-size: large;
@@ -73,9 +78,8 @@ div.programming{
     padding: 15px;
     padding-top: 5px;
     box-shadow: 5px 5px;
-    position: absolute;
-    left: 900px;
-    top:170px;
+    z-index: 0;
+    margin-left: 150px;
 }
 div.database{
     text-align: center;
@@ -88,24 +92,20 @@ div.database{
     padding: 15px;
     padding-top: 5px;
     box-shadow: 5px 5px;
-    position: absolute;
-    left: 780px;
-    top:460px;
+    margin-top: 10px;
 }
 div.cicd{
     text-align: center;
-    height: 220px;
-    width: 150px;
+    border-radius:100px;
     text-transform: capitalize;
     font-weight: normal;
     font-size: large;
     border: 10px ridge rgb(171, 247, 221);
-    padding: 15px;
     padding-top: 5px;
     box-shadow: 5px 5px;
-    position: absolute;
-    left: 650px;
-    top:200px;
+    margin-left: 130px;
+    padding: 15px;
+    z-index: 0;
 }
 div.skills{
     height:220px;
@@ -121,36 +121,29 @@ div.skills{
     left: 450px;
     top:380px;
 }
-ul.tools{
-    list-style-type: circle;
-    list-style-position: outside;
-}
 li.bullet{
     margin:1px
 }
 img.dbpic{
     height:100px;
     width:100px;
-    position: absolute;
-    left: 300px;
-    top:40px;
 }
 img.cicdpic{
-    height:100px;
-    width:130px;
-    position: absolute;
-    left: 120px;
-    top:100px;
+    height:50px;
+    width:65px;
+    margin-top: 0px;
+    margin-left:150px;
+    z-index: 10;
 }
 #professional_projects{
     text-align: center;
-    background-color:rgb(171, 247, 221); 
+    /* background-color:rgb(171, 247, 221);  */
     width: 1200px;
     height:1200px;
     opacity: 1.5;
-    margin:10px auto 10px auto;
+    /* margin:10px auto 10px auto; */
     display: inline;
-
+    margin-top: 15px;
 }
 h2#professional_projects{
     text-align: center;
@@ -159,6 +152,3 @@ h2#professional_projects{
 /* img#citizens-logo-rebrand{
 
 } */
-dl.projects{
-    background-color:rgb(171, 247, 221); 
-}
