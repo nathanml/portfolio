@@ -39,7 +39,7 @@ li.link{
     display:inline;
     margin: center
 }
-div.academic_projects{
+#academic_projects{
     text-align: center;
     background-color: whitesmoke;
     width: 1200px;
@@ -47,6 +47,16 @@ div.academic_projects{
     opacity: 1.5;
     display: inline;
     margin-top: 15px;
+}
+#personal_projects{
+    text-align: center;
+    width: 1200px;
+    height:1200px;
+    opacity: 1.5;
+    display: inline;
+    margin-top: 15px;
+    font-weight: normal;
+    font-size: medium;
 }
 div.section{
     display:flow-root;
@@ -137,11 +147,9 @@ img.cicdpic{
 }
 #professional_projects{
     text-align: center;
-    /* background-color:rgb(171, 247, 221);  */
     width: 1200px;
     height:1200px;
     opacity: 1.5;
-    /* margin:10px auto 10px auto; */
     display: inline;
     margin-top: 15px;
 }
@@ -149,6 +157,41 @@ h2#professional_projects{
     text-align: center;
     font-weight: 600;
 }
+h2#academic_projects{
+    text-align: center;
+    font-weight: 600;
+}
+h2.personal_projects{
+    text-align: center;
+    font-weight: 600;
+    font-size:x-large;
+}
+dl.projects{
+    text-align: center;
+    font-weight: normal;
+    font-size: medium;
+}
 /* img#citizens-logo-rebrand{
 
 } */
+footer {
+    border: 2px solid;
+    font-weight: 600;
+    padding: 0px;
+    text-align: center;
+    background-color:rgb(171, 247, 221);
+    opacity: 1.5;
+    height: 130px;
+}
+div.footer_nav{
+    display:list-item;
+    text-align: center;
+    list-style: none;
+}
+li.footer_link{
+    display: list-item;
+    list-style: none;
+    margin: center;
+    padding-top: 10px;
+}
+
