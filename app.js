@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
     res.sendFile('public/views/index.html', {root: __dirname });
     });
 
+app.get('/bio', (req, res) => {
+    res.sendFile('public/views/bio.html', {root: __dirname})
+})
+
 app.listen(port, function(error){
     if(error){
         console.log('Something went wrong', error)

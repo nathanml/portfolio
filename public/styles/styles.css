@@ -194,4 +194,17 @@ li.footer_link{
     margin: center;
     padding-top: 10px;
 }
+ul.profiles{
+    display:inline;
+    width: 400px;
+    height:400px;
+}
+li.profile{
+    display: inline;
+    float:left;
+}
+li.profile_1{
+    display: inline;
+    float: right;
+}
 
