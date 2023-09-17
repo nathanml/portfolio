@@ -10,8 +10,20 @@ app.get('/', (req, res) => {
     });
 
 app.get('/bio', (req, res) => {
-    res.sendFile('public/views/bio.html', {root: __dirname})
-})
+    res.sendFile('public/views/bio.html', {root: __dirname});
+});
+
+app.get('/academicprojects', (req, res) =>{
+    res.sendFile('public/views/academic_projects.html', {root: __dirname});
+});
+
+app.get('/personal_projects', (req, res) =>{
+    res.sendFile('public/views/personal_projects.html', {root: __dirname});
+});
+
+app.get('/professional_projects', (req, res) =>{
+    res.sendFile('public/views/professional_projects.html', {root: __dirname});
+});
 
 app.listen(port, function(error){
     if(error){
