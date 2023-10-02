@@ -21,10 +21,23 @@ img.profile{
     padding-top: 20px;
     background-color:whitesmoke;
     opacity: 1.5;
+    height: 85px;
+    width: 85px;
+    display: inline;
+    float: left;
+}
+img.profile_1{
+    padding-top: 20px;
+    background-color:whitesmoke;
+    opacity: 1.5;
     height: 170px;
     width: 170px;
     display: inline;
-    
+    float: right;
+}
+ul.project_list{
+    float: right;
+    display: -moz-stack;
 }
 ul.navigation{
     width:570px;
@@ -71,11 +84,7 @@ p.bio{
     text-transform: uppercase;
     font-weight: normal;
     font-size: large;
-    /* border: 10px ridge rgb(171, 247, 221); */
     padding: 15px;
-    /* box-shadow: 5px 5px; */
-    position: absolute;
-    top:350px;
 }
 div.programming{
     text-align: center;

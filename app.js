@@ -1,4 +1,3 @@
-const http = require('http')
 const express = require('express')
 const port = 3000
 
@@ -9,11 +8,19 @@ app.get('/', (req, res) => {
     res.sendFile('public/views/index.html', {root: __dirname });
     });
 
+app.get('/home', (req, res) => {
+    res.sendFile('public/views/home.html', {root: __dirname});
+});
+
 app.get('/bio', (req, res) => {
     res.sendFile('public/views/bio.html', {root: __dirname});
 });
 
-app.get('/academicprojects', (req, res) =>{
+app.get('/skills', (req, res) => {
+    res.sendFile('public/views/skills.html', {root: __dirname});
+});
+
+app.get('/academic_projects', (req, res) =>{
     res.sendFile('public/views/academic_projects.html', {root: __dirname});
 });
 
