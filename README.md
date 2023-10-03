@@ -10,3 +10,8 @@ MVP 1.1:
 3. Skills section complete
 4. New projects added
 5. Remove white space and add color pallette to the site
+
+MVP 1.2:
+1. Add texture to navigation buttons
+2. Modify footer
+3.
