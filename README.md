@@ -13,5 +13,5 @@ MVP 1.1:
 
 MVP 1.2:
 1. Add texture to navigation buttons
-2. Modify footer
-3.
+2. Modify footer to include email form
+3. Add Alarm project
