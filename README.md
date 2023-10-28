@@ -2,7 +2,7 @@ Run steps:
 
 npm install express
 npm install http
-npm start
+node app.js
 
 MVP 1.1:
 1. Homepage modified 
@@ -13,5 +13,7 @@ MVP 1.1:
 
 MVP 1.2:
 1. Add texture to navigation buttons
-2. Modify footer
-3.
+2. Modify footer to include email form
+3. Add Alarm project
+4. Remove more white space - Skills & About
+5. Code cleanup

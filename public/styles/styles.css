@@ -1,10 +1,11 @@
 * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: normal;
-    padding: 5px;
+    padding: 5px; */
+    /* box-sizing: border-box; */
     /* background-color:rgb(102,205,170);*/
 }
-header{
+/* header{
     border: 2px solid;
     font-weight: 600;
     padding: 0px;
@@ -86,7 +87,7 @@ p.bio{
     font-size: large;
     padding: 15px;
 }
-div.programming{
+/* div.programming{
     text-align: center;
     height: 230px;
     width: 180px; 
@@ -139,8 +140,8 @@ div.skills{
     position: absolute;
     left: 450px;
     top:380px;
-}
-li.bullet{
+} */
+/* li.bullet{
     margin:1px
 }
 img.dbpic{
@@ -179,11 +180,11 @@ dl.projects{
     text-align: center;
     font-weight: normal;
     font-size: medium;
-}
+} */
 /* img#citizens-logo-rebrand{
 
 } */
-footer {
+/* footer {
     border: 2px solid;
     font-weight: 600;
     padding: 0px;
@@ -213,5 +214,5 @@ li.profile{
 li.profile_1{
     display: inline;
     float: right;
-}
+}  */
 

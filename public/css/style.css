@@ -663,14 +663,17 @@ a:focus {
 
 .team_section .box .img-box {
   width: 100%;
+  height: 50%;
 }
 
 .team_section .box .img-box img {
   width: 100%;
+  height: 50%;
 }
 
 .team_section .box .detail-box {
   width: 100%;
+  height: 50%;
   color: #ffffff;
   padding: 25px 15px;
   text-align: center;
@@ -700,6 +703,19 @@ a:focus {
 .team_section .btn-box a:hover {
   background-color: transparent;
   color: #2c7873;
+}
+
+.team_section .ul.list{
+  align-items: center;
+  display: -moz-stack;
+  list-style-type: none;
+}
+
+.team_section .li.element{
+  display: -moz-stack;
+  size: 5px;
+  padding: 5px;
+   text-align: center; 
 }
 
 .contact_section {
