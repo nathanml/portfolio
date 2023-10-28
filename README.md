@@ -15,5 +15,5 @@ MVP 1.2:
 1. Add texture to navigation buttons
 2. Modify footer to include email form
 3. Add Alarm project
-4. Remove more white space
+4. Remove more white space - Skills & About
 5. Code cleanup
