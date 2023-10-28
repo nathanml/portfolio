@@ -50,7 +50,6 @@ body {
 .heading_container h2 span {
   color: #2c7873;
 }
-
 .heading_container.heading_center {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -378,13 +377,10 @@ div.row:after{
   display: table;
   clear: both;
 }
-ul.list{
-  align-items: center;
-  display: -moz-stack;
-  list-style-type: none;
-}
+
 li.element{
   display: -moz-stack;
+  padding: 2px 2px 2px 2px;
   size: 5px;
   padding: 5px;
   /* text-align: center; */
@@ -437,12 +433,7 @@ ul.list{
   display: -moz-stack;
   list-style-type: none;
 }
-li.element{
-  display: -moz-stack;
-  size: 5px;
-  padding: 5px;
-  /* text-align: center; */
-}
+
 b.title{
   display: block;
   size: 10px;
