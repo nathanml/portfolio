@@ -11,3 +11,8 @@ MVP 1:
 4. 960gs standard
 5. Header/Footer
 6. Hosting on AWS
+
+MVP 2:
+1. New UI/UX
+2. Improved descriptions and photos
+3. Upgrade Node version
