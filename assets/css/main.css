@@ -2994,6 +2994,9 @@ input, select, textarea {
 		#Other{
 			background-color: #5e42a6;
 		}
+		#About{
+			background-color: #953d75;
+		}
 /* Spotlights */
 
 	.spotlights > section {
