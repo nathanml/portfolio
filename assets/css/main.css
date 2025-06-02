@@ -2481,7 +2481,10 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.35) !important;
 		opacity: 1.0;
 	}
-
+/* Projects */
+.projects{
+	color: #953d75;
+}
 /* Icon */
 
 	.icon {
@@ -2536,19 +2539,19 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #3e4094;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #2f32df;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: #2f32df;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					color: #2c2fe2;
 				}
 
 				.wrapper.style3 .icon.major:before {
@@ -2985,6 +2988,18 @@ input, select, textarea {
 
 		}
 
+		#Academic{
+			background-color: #4649f8;
+		}
+		#Other{
+			background-color: #5e42a6;
+		}
+		#About{
+			background-color: #953d75;
+		}
+		#Generic{
+			background-color: #5e42a6;
+		}
 /* Spotlights */
 
 	.spotlights > section {
@@ -3370,7 +3385,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #261c3e;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
